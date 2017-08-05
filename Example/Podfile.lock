@@ -1,0 +1,25 @@
+PODS:
+  - Expecta (1.0.6)
+  - Jenga (0.1.0):
+    - Yoga
+  - Specta (1.0.6)
+  - Yoga (1.6.0)
+
+DEPENDENCIES:
+  - Expecta
+  - Jenga (from `../`)
+  - Specta
+
+EXTERNAL SOURCES:
+  Jenga:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  Jenga: 8d6de2fd4a3b8c0ed726bdf231903eb73f05a73e
+  Specta: f506f3a8361de16bc0dcf3b17b75e269072ba465
+  Yoga: 81670877477311136b1b3f69a6307ce62e1c89cf
+
+PODFILE CHECKSUM: 76ba95f2776ddf62173b8e47325766e8171decbc
+
+COCOAPODS: 1.2.1

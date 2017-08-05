@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'Jenga_Example' do
+  pod 'Jenga', :path => '../'
+
+  target 'Jenga_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  end
+end
